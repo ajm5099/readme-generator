@@ -1,0 +1,10 @@
+{
+	"title": "Testing Title",
+	"readmeDescription": "here is a description of the file",
+	"tableOfContents": "1: intro",
+	"installation": "1: run node index.js 2: check file contents",
+	"howToUse": "Run it",
+	"license": "MIT License",
+	"contribute": "Yes",
+	"questions": []
+}
