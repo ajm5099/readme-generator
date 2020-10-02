@@ -1,6 +1,3 @@
-//TODO: require all the dependencies I'll need - inquirer, fs
-
-
 //==============================================================================
 //Global Variables & Dependencies
 //==============================================================================
@@ -81,35 +78,12 @@ const questions = [
 //==============================================================================
 
 async function askQuestions() {
+    //tells the application to wait for all dependencies before asking questions
     let answers = await inquirer.prompt(questions);
+    //waits for all answers to be complete before it starts the readme build function
     let answersString = await generateReadme(answers);
+    //waits for previous process to complete before it writes user data to the readme file
     await writeFileAsync("readme.md", answersString)
 }
 
 askQuestions();
-
-
-
-
-
-
-
-
-    //TODO: Function that will generate the readme template
-
-    // function writeToFile(fileName, data) {
-    // }
-
-    //TODO: use inquirer to prompt users with questions
-
-    //TODO: Use answers that come back from inquirer - pass those into the generate readme function
-
-    //TODO: Write file using template generated from readme function
-
-    // function to initialize program
-    // function init() {
-
-    // }
-
-    // function call to initialize program
-    // init();
