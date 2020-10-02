@@ -51,8 +51,8 @@ const questions = [
         type: "list",
         message: "What type of license do you wish to utilize with your application",
         choices: [
-            "MIT License",
-            "GNU GPLv3",
+            "MIT",
+            "GPLv3",
         ]
     },
     {
@@ -70,16 +70,14 @@ const questions = [
         message: "What tests can your users run to ensure your application is running correctly?",
     },
     {
-        name: "questions",
-        type: "checkbox",
-        message: "Which methods can users use to contact you with questions?",
-        choices: [
-            "email",
-            "phone",
-            "github",
-            "linkedin",
-            "postal mail",
-        ]
+        name: "github",
+        type: "input",
+        message: "What is your Github username?",
+    },
+    {
+        name: "email",
+        type: "input",
+        message: "What is your email?",
     },
 ];
 

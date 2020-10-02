@@ -1,48 +1,49 @@
 
-# Readme Maker
+![License: MIT ](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
+# new title
 
 ### Authors: 
 Alex Milroy  
 github: https://github.com/ajm5099/
 
 ## Table of contents:
-1: some stuff 2: some other stuff
+ooo contents
 
-## List of Contents in this directory:
-
-
+## List of Contents in this directory
 
 
-## Project description:
-The readme maker is a program that helps to easily build readme's
 
-## Installation instructions:
-1: install it
 
-## How to use this application:
-The readme maker takes inputs from the user, and builds a readme document
+## Project description
+its a description
 
-## Application License:
-MIT License
+## Installation instructions
+you isntall it
+
+## How to use this application
+you use it
+
+## Application License
+MIT
 
 ## Is this application accepting contributions?
 Yes
 
-## User Stories:
+## User Stories
 
-## Screenshot of Website:
-
-![Site Screenshot]()
+## Screenshot of Website
 
 ![Site Screenshot]()
 
+![Site Screenshot]()
 
-## Resources and Technologies Used:
+
+## Resources and Technologies Used
 
 
-## Functionality Tests:
-Run the program
+## Functionality Tests
+run it
     
 ## How to contact the author:
-email,phone,github 
+email,phone 
     

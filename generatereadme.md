@@ -1,15 +1,15 @@
 module.exports=function generatereadme(response) {
     return `
+![License: ${response.license} ](https://img.shields.io/badge/License-${response.license}-yellow.svg)
 # ${response.readme_title}
 
 ### Authors: 
 Alex Milroy  
-github: https://github.com/ajm5099/
 
 ## Table of contents:
 ${response.tableOfContents}
 
-## List of Contents in this directory
+## List of files in this directory
 
 
 
@@ -24,7 +24,7 @@ ${response.installation}
 ${response.usage}
 
 ## Application License
-${response.license}
+This application is goverened by the ${response.license} license.
 
 ## Is this application accepting contributions?
 ${response.contribute}
@@ -45,6 +45,7 @@ ${response.contribute}
 ${response.tests}
     
 ## How to contact the author:
-${response.questions} 
-    `
+github.com/${response.github}
+github.com/${response.email}
+`
 }
