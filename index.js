@@ -32,11 +32,6 @@ const questions = [
         message: "Please provide the description for your readme file.",
     },
     {
-        name: "tableOfContents",
-        type: "input",
-        message: "Please provide the table of contents text.",
-    },
-    {
         name: "installation",
         type: "input",
         message: "Please provide the installation instructions for your application?",

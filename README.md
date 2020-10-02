@@ -1,49 +1,40 @@
 
-![License: MIT ](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
-# new title
+![License: MIT ](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Readme generator
 
 ### Authors: 
 Alex Milroy  
-github: https://github.com/ajm5099/
 
 ## Table of contents:
-ooo contents
+[Files](#Files)
+[Description](#Description)
+[Installation](#Installation)
+[Uses](#Uses)
+[License](#License)
+[Contributions](#Contributions)
+[Tests](#Tests)
+[Contact](#Contact)
 
-## List of Contents in this directory
+## Files
 
+## Description
+This is a readme generator application that helps users automatically create readme files
 
+## Installation
+There are no isntallation instructions
 
+## Uses
+To use the application, simply run the command "node index.js"
 
-## Project description
-its a description
+## License
+This application is goverened by the MIT license.
 
-## Installation instructions
-you isntall it
-
-## How to use this application
-you use it
-
-## Application License
-MIT
-
-## Is this application accepting contributions?
+## Contributions
 Yes
 
-## User Stories
-
-## Screenshot of Website
-
-![Site Screenshot]()
-
-![Site Screenshot]()
-
-
-## Resources and Technologies Used
-
-
-## Functionality Tests
-run it
+## Tests
+They can run the application
     
-## How to contact the author:
-email,phone 
-    
+## Contact:
+<github.com/ajm5099>
+<github.com/amilroy@gmail.com>
